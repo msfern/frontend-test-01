@@ -4,7 +4,7 @@
 ![DELFOSIM Logo](images/delfos_Intelligent_maintenance.png?raw=true "DELFOSIM Logo")
 
 ## Sobre o desafio
-Não será passado prazo para entrega, verifique os pré-requisitos e nos dê seu prazo, mas fique atento pois vamos avaliar mais rigorosamente seu código quanto mais demorar para entregar a partir da data em que foi feito o fork desse repositório. A ideia é simples, você terá que desenvolver 1 tela (com dados falsos mesmo) seguindo alguns pré requisitos e o seguinte layout:
+Não será passado prazo para entrega, verifique os pré-requisitos e nos dê seu prazo, mas fique atento pois vamos avaliar mais rigorosamente seu código quanto mais demorar para entregar a partir da data em que foi feito o fork desse repositório. A ideia é simples, você terá que desenvolver (com dados falsos mesmo) seguindo alguns pré requisitos e o seguinte layout:
 
 ![Desafio](images/tela-01.png?raw=true "Desafio")
 
