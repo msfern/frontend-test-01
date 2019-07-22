@@ -1,34 +1,28 @@
 # Desafio Front-end Delfosim
 > Desafio para ingressar como Front-end Developer na Delfosim em Fortaleza-CE
 
-![DELFOSIM Logo](images/delfos_Intelligent_maintenance.png?raw=true "DELFOSIM Logo")
-
 ## Sobre o desafio
-Não será passado prazo para entrega, verifique os pré-requisitos e nos dê seu prazo, mas fique atento pois vamos avaliar mais rigorosamente seu código quanto mais demorar para entregar a partir da data em que foi feito o fork desse repositório. A ideia é simples, você terá que desenvolver (com dados falsos mesmo) seguindo alguns pré requisitos e o seguinte layout:
+Não será passado prazo para entrega, verifique os pré-requisitos e nos dê seu prazo, mas fique atento pois vamos avaliar mais rigorosamente seu código quanto mais demorar para entregar a partir da data em que foi feito o fork desse repositório. A ideia é simples, você terá que desenvolver (com dados falsos) seguindo os pré-requisitos e o seguinte layout:
 
 ![Desafio](images/tela-01.png?raw=true "Desafio")
 
 ## Pré requisitos
-* [ ] ReactJS, Angular, VueJS ou Javascript puro
-* [ ] Ícones em svg
-* [ ] Use cores do Material Design
+* [ ] ReactJS
+* [ ] Utilize desses UI Frameworks ([Bootstrap](https://react-bootstrap.github.io/), [Semantic](https://react.semantic-ui.com/) ou [Material](https://material-ui.com/pt/))
 * [ ] Documentar como rodamos servidor do projeto no README.MD
 
 ## Dicas
-- Styled Components
-- Seguir Material Design Guidelines
 - React Router
 - Highcharts
 
 ## Diferenciais
-- Criar issues e resolvê-las a partir de pull requests
-- Documentação no código
+- Código bem escrito e documentado
 - Arquivos pequenos com poucas responsabilidades
 - Redux
-- Criação de servidor para os mocks da tela
-- Usabilidade e feedback para o usuário no carregamento da consulta
-- Seguir algum Javascript Style Guide
-- Layout responsivo (seja criativo!)
+- Boa usabilidade
+- Feedback para o usuário no carregamento da consulta
+- Layout flexível (Flexbox)
+- Utilizar as novas features do ECMA
 
 ## Pronto para começar o desafio?
 - Faça um "fork" desse repositório na sua conta do Github
@@ -51,4 +45,4 @@ Não será passado prazo para entrega, verifique os pré-requisitos e nos dê se
 
 - Tenho mais dúvidas, com quem posso entrar em contato?
 
-**Entre em contato com [Lucas França](https://github.com/lffranca), Delfosim elaborador desse desafio.**
+**Entre em contato com André Oliveira (andre.oliveira@delfosim.com)**
