@@ -6,10 +6,16 @@ Não será passado prazo para entrega, verifique os pré-requisitos e nos dê se
 
 ![Desafio](images/tela-01.png?raw=true "Desafio")
 
+## Ações
+- O usuário deve ser capaz de incluir um novo widget(Gráfico), editar e remover
+- No momento da inclusão desse widget o usuário deve fornecer os valores falsos e na edição o mesmo deve alterar os valores cadastrados
+- Todos esses widgets devem ser listados no Dashboard
+
+
 ## Pré requisitos
-* [ ] ReactJS
-* [ ] Utilize desses UI Frameworks ([Bootstrap](https://react-bootstrap.github.io/), [Semantic](https://react.semantic-ui.com/) ou [Material](https://material-ui.com/pt/))
-* [ ] Documentar como rodamos servidor do projeto no README.MD
+- ReactJS
+- Utilize desses UI Frameworks ([Bootstrap](https://react-bootstrap.github.io/), [Semantic](https://react.semantic-ui.com/) ou [Material](https://material-ui.com/pt/))
+- Documentar como rodamos servidor do projeto no README.MD
 
 ## Dicas
 - React Router
