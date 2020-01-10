@@ -1,54 +1,68 @@
-# Desafio Front-end Delfosim
-> Desafio para ingressar como Front-end Developer na Delfosim em Fortaleza-CE
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Sobre o desafio
-Não será passado prazo para entrega, verifique os pré-requisitos e nos dê seu prazo, mas fique atento pois vamos avaliar mais rigorosamente seu código quanto mais demorar para entregar a partir da data em que foi feito o fork desse repositório. A ideia é simples, você terá que desenvolver (com dados falsos) seguindo os pré-requisitos e o seguinte layout:
+## Available Scripts
 
-![Desafio](images/tela-01.png?raw=true "Desafio")
+In the project directory, you can run:
 
-## Ações
-- O usuário deve ser capaz de incluir um novo widget(Gráfico), editar e remover
-- No momento da inclusão desse widget o usuário deve fornecer os valores falsos e na edição o mesmo deve alterar os valores cadastrados
-- Todos esses widgets devem ser listados no Dashboard
+### `yarn start`
 
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Pré requisitos
-- ReactJS
-- Utilize desses UI Frameworks ([Bootstrap](https://react-bootstrap.github.io/), [Semantic](https://react.semantic-ui.com/) ou [Material](https://material-ui.com/pt/))
-- Documentar como rodamos servidor do projeto no README.MD
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-## Dicas
-- React Router
-- Highcharts
+### `yarn test`
 
-## Diferenciais
-- Código bem escrito e documentado
-- Arquivos pequenos com poucas responsabilidades
-- Redux
-- Boa usabilidade
-- Feedback para o usuário no carregamento da consulta
-- Layout flexível (Flexbox)
-- Utilizar as novas features do ECMA
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Pronto para começar o desafio?
-- Faça um "fork" desse repositório na sua conta do Github
-- Crie uma branch com o seu nome e sobrenome ex: ```lucas-franca```
-- Após completar o desafio, crie um "pull request" nesse repositório comparando a sua branch com a master
-- Receberemos uma notificação do seu pull request, faremos a correção da sua solução e entraremos em contato com o email da conta do github em que foi executada o desafio
+### `yarn build`
 
-## FAQ
-- Posso usar o create-react-app para completar o desafio?
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-**Sim, você pode usar qualquer cli para criar seu projeto**
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-- Preciso necessariamente fazer um fork do projeto?
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-**Sim, para que possamos saber quanto tempo você levou para executar o desafio**
+### `yarn eject`
 
-- Aonde estão os assets?
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-**Esse desafio não te dá nenhum asset, você terá que buscá-los por conta própria**
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- Tenho mais dúvidas, com quem posso entrar em contato?
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-**Entre em contato com André Oliveira (andre.oliveira@delfosim.com)**
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
