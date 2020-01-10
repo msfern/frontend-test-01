@@ -6,7 +6,7 @@ class Header extends React.Component {
         return (
             <nav>
                 <img className='logo' src='images/delfos_Intelligent_maintenance.png' alt='Logo Delfos' />
-                <SearchBar />
+                <SearchBar updateSearch={this.props.updateSearch} />
             </nav>
         )
     }
