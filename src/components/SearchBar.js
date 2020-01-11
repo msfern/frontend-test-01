@@ -1,4 +1,5 @@
 import React from 'react';
+import { Input } from 'semantic-ui-react'
 
 class SearchBar extends React.Component {
     searchRef = React.createRef();
@@ -9,10 +10,7 @@ class SearchBar extends React.Component {
 
     render() {
         return (
-            <div className='ui icon input searchbar'>
-                <input type='text' placeholder='Pesquisar...' ref={this.searchRef} onChange={this.handleSearch} />
-                <i aria-hidden="true" className="search icon"></i>
-            </div>
+            <Input className='searchbar' icon='search' placeholder='Pesquisar...' ref={this.searchRef} onChange={this.handleSearch} />
         )
     }
 }

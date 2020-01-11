@@ -1,9 +1,10 @@
 import React from 'react';
+import { Button } from 'semantic-ui-react'
 
 class AddWidget extends React.Component {
     render() {
         return (
-            <button onClick={this.props.addNewWidget} className="ui circular icon button add-widget-btn"><i aria-hidden="true" className="plus icon"></i></button>
+            <Button onClick={this.props.addNewWidget} className="add-widget-btn" circular icon='plus' />
         )
     }
 }
