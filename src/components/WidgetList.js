@@ -9,7 +9,7 @@ class WidgetList extends React.Component {
         return (
             <ul className='widget-list'>
                 {filteredWidgets.map( key =>
-                    <Widget key={key} index={key} name={this.props.widgetList[key].title.text} details={this.props.widgetList[key]} deleteWidget={this.props.deleteWidget} editWidget={this.props.editWidget} />    
+                    <Widget key={key} index={key} details={this.props.widgetList[key]} deleteWidget={this.props.deleteWidget} openModalEdit={this.props.openModalEdit} />    
                 )}
             </ul>
         )
