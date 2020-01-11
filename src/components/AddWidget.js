@@ -4,7 +4,7 @@ import { Button } from 'semantic-ui-react'
 class AddWidget extends React.Component {
     render() {
         return (
-            <Button onClick={this.props.addNewWidget} className="add-widget-btn" circular icon='plus' />
+            <Button onClick={this.props.openModalAdd} className="add-widget-btn" circular icon='plus' />
         )
     }
 }
