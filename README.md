@@ -3,6 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ##  Instalação
 * Instale o [Node.JS](https://nodejs.org/en/);
 * Clone o repositório com `git clone https://github.com/msfern/frontend-test-01.git`;
+* Mude para a branch `stephanie-fernandes`;
 * Instale as dependências do projeto com `npm install`.
 
 ## Rodando em Local
