@@ -8,13 +8,14 @@ class Widget extends React.Component {
         this.props.deleteWidget(this.props.index);
     }
     handleEditClick = () => {
-        alert('change');
+        this.props.openModalEdit(this);
     }
     render() {
+        const name = this.props.details.title.text;
         return (
             <li className='widget' >
                 <header className='widget-header'>
-                    <h3 className='widget-title'>{this.props.name}</h3>
+                    <h3 className='widget-title'>{name}</h3>
                     <Dropdown icon='ellipsis vertical'>
                         <Dropdown.Menu>
                             <Dropdown.Item text='Editar' onClick={this.handleEditClick} />
@@ -23,7 +24,6 @@ class Widget extends React.Component {
                     </Dropdown>
                 </header>
                 <HighchartsReact
-                    className='highcharts-container'
                     highcharts={Highcharts}
                     options={this.props.details}
                 />
