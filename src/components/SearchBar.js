@@ -5,7 +5,7 @@ class SearchBar extends React.Component {
     searchRef = React.createRef();
 
     handleSearch = () => {
-        this.props.updateSearch(this.searchRef.current.value);
+        this.props.updateSearch(this.searchRef.current.inputRef.current.value);
     }
 
     render() {
