@@ -1,3 +1,20 @@
+html, body {
+    height: auto;
+}
+
+.top-navbar {
+    display: flex;
+    border-bottom: 1px #ccc solid;
+    padding: 20px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.searchbar {
+    align-self: center;
+    margin-left: auto;
+    width: 300px;
+}
+
 .logo {
     width: 150px;
     height: auto;
@@ -5,4 +22,112 @@
 
 .widget {
     border: 1px #ccc solid;
+    border-radius: 5px;
+    width: 80%;
+    &:not(:first-child) {
+        margin-top: 20px;
+    }
+}
+
+.widget-title {
+    margin: 0 auto 0 0;
+    font-size: 1.5rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.widget-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #e6e6e6;
+    border-bottom: 1px #ccc solid;
+    .dropdown i{
+        transition: transform .2s ease;
+        transform: scale(1);
+        &:hover { transform: scale(1.3); }
+    }
+}
+
+.widget-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+}
+
+.add-widget-btn.ui {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: #21ba45;
+    color: #fff;
+    transform: translateY(0) scale(1);
+    transition: transform .2s ease;
+    &:active, &:focus{
+        background: #21ba45;
+        color: #fff;
+    }
+    &:hover{
+        background: #21ba45;
+        color: #fff;
+        transform: translateY(-10px) scale(1.1);
+    }
+}
+
+.highcharts-title {
+    visibility: hidden;
+}
+
+.footer {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: rgba(0,0,0,0.45);
+    i {
+        width: 18px;
+        height: 100%;
+    }
+    svg {
+        width: 1rem;
+        height: auto;
+        margin: 0 5px;
+    }
+}
+
+.ui.modal {
+    width: 650px;
+    &>.actions { 
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 415px ) {
+    .widget {
+        width: 100%;
+    }
+    .top-navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .searchbar {
+        width: 100%;
+    }
+
+    .graph-image{
+        img { width: 150px; margin: auto; }
+    }
+
+    .ui.modal {
+        width: 95%;
+    }
 }
