@@ -9,7 +9,10 @@ class SearchBar extends React.Component {
 
     render() {
         return (
-            <input type='text' placeholder='Pesquisar...' ref={this.searchRef} onChange={this.handleSearch} />
+            <div className='ui icon input searchbar'>
+                <input type='text' placeholder='Pesquisar...' ref={this.searchRef} onChange={this.handleSearch} />
+                <i aria-hidden="true" className="search icon"></i>
+            </div>
         )
     }
 }
